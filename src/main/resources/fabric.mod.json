@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantablespike",
+  "version": "${version}",
+  "name": "Enchantable Spike",
+  "description": "Make Kibe Utilities diamond spikes enchantable.",
+  "authors": [
+    "BRForgers",
+    "armelin1"
+  ],
+  "contact": {
+    "homepage": "https://brforgers.com.br/",
+    "sources": "https://github.com/BRForgers/EnchantableSpike"
+  },
+  "license": "MPL-2.0",
+  "icon": "assets/enchantablespike/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "br.com.brforgers.mods.enchantablespike.Enchantablespike"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "br.com.brforgers.mods.enchantablespike.EnchantablespikeClient"
+      }
+    ]
+  },
+  "mixins": [
+    "enchantablespike.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "fabric-language-kotlin": ">=1.8.2+kotlin.1.7.10",
+    "minecraft": "1.18.2",
+    "kibe": "*"
+  }
+}

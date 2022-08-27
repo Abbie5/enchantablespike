@@ -1,0 +1,9 @@
+{
+  "itemGroup.enchantablespike.tab": "Enchantable Spike",
+  "block.enchantablespike.diamond_spikes": "Diamond Spikes",
+  "block.kibe.diamond_spikes": "Diamond Spikes (Old)",
+  "tooltip.kibe.lore.diamond_spikes.1": "§4§lPut on crafting table or",
+  "tooltip.kibe.lore.diamond_spikes.2": "§4§lbreak to get the enchantable version",
+  "tooltip.enchantablespike.lore.diamond_spikes.1": "§5§oEntities drops xp and player only items",
+  "tooltip.enchantablespike.lore.diamond_spikes.2": "§5§oCan be enchanted"
+}

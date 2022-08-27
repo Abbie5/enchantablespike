@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kibe:diamond_spikes"
+    }
+  ],
+  "result": {
+    "item": "enchantablespike:diamond_spikes",
+    "count": 1
+  }
+}

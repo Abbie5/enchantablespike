@@ -1,0 +1,9 @@
+{
+  "itemGroup.enchantablespike.tab": "Espinhos encantáveis",
+  "block.enchantablespike.diamond_spikes": "Espinhos de Diamante",
+  "block.kibe.diamond_spikes": "Espinhos de Diamante (antigo)",
+  "tooltip.kibe.lore.diamond_spikes.1": "§4$lColoque na crafting table ou",
+  "tooltip.kibe.lore.diamond_spikes.2": "§4$lquebre para converter para a versão encantável.",
+  "tooltip.enchantablespike.lore.diamond_spikes.1": "§5§oQuem morre dropa xp, e items exclusivos de players",
+  "tooltip.enchantablespike.lore.diamond_spikes.2": "§5§oPode ser encantado"
+}
