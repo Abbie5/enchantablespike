@@ -9,7 +9,7 @@ import net.minecraft.item.ItemStack
 import net.minecraft.util.math.BlockPos
 import net.minecraft.world.World
 
-class FakePlayerEntity(world: World, var item: ItemStack = ItemStack.EMPTY): PlayerEntity(world, BlockPos.ORIGIN, 0f, GameProfile(FAKE_PLAYER_UUID, "fake")) {
+class FakePlayerEntity(world: World, var item: ItemStack = ItemStack.EMPTY): PlayerEntity(world, BlockPos.ORIGIN, 0f, GameProfile(FAKE_PLAYER_UUID, "fake"), null) {
 
     override fun isSpectator() = true
     override fun isCreative() = true

@@ -8,6 +8,9 @@
     "BRForgers",
     "armelin1"
   ],
+  "contributors": [
+    "Abbie"
+  ],
   "contact": {
     "homepage": "https://brforgers.com.br/",
     "sources": "https://github.com/BRForgers/EnchantableSpike"
@@ -33,10 +36,10 @@
     "enchantablespike.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.14.9",
-    "fabric": "*",
-    "fabric-language-kotlin": ">=1.8.2+kotlin.1.7.10",
-    "minecraft": "1.18.2",
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=${fabric_kotlin_version}+kotlin.${kotlin_version}",
+    "minecraft": "${minecraft_version}",
     "kibe": "*"
   }
 }

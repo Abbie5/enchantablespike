@@ -5,7 +5,6 @@ import br.com.brforgers.mods.enchantablespike.blocks.getBlockId
 import net.minecraft.block.Block
 import net.minecraft.item.ItemConvertible
 import net.minecraft.text.Text
-import net.minecraft.text.TranslatableText
 
 import net.minecraft.util.Identifier
 
@@ -22,7 +21,7 @@ fun registerTooltip(item: ItemConvertible, modId: String = "enchantablespike") {
     } else {
         getKibeIdentifier(item)
     }
-    tooltipRegistry[item] = arrayListOf(TranslatableText("tooltip.${modId}.lore.${id!!.path}"))
+    tooltipRegistry[item] = arrayListOf(Text.translatable("tooltip.${modId}.lore.${id!!.path}"))
 }
 
 fun registerTooltip(item: ItemConvertible, number: Int, modId: String = "enchantablespike") {
@@ -33,7 +32,7 @@ fun registerTooltip(item: ItemConvertible, number: Int, modId: String = "enchant
     }
     val list = mutableListOf<Text>()
     (1..number).forEach {
-        list.add(TranslatableText("tooltip.${modId}.lore.${id!!.path}.${it}"))
+        list.add(Text.translatable("tooltip.${modId}.lore.${id!!.path}.${it}"))
     }
     tooltipRegistry[item] = list
 }
